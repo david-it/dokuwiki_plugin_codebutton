@@ -39,8 +39,8 @@ class action_plugin_codebutton extends DokuWiki_Action_Plugin {
             'type' => 'format',
             'title' => $this->getLang('insertcode'),
             'icon' => '../../plugins/codebutton/image/code.png',
-            'open' => '<file>\n',
-            'close' => '\n</file>',
+            'open' => '<code | download>\n',
+            'close' => '\n</code>',
         );
     }
  
