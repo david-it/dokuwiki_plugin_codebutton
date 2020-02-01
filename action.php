@@ -2,9 +2,8 @@
 /**
  * Action Plugin: Inserts a button into the toolbar to add file tags
  *
- * @author Georg Schmidt, Heiko Barth
- * @mod Davide Rolando
- * Default cache time DokuWiki: 60*60*24 (https://www.dokuwiki.org/config:cachetime)
+ * @author Georg Schmidt, Heiko Barth, Davide Rolando
+ *
  */
  
 if (!defined('DOKU_INC')) die();
@@ -30,7 +29,7 @@ class action_plugin_codebuttonmod1 extends DokuWiki_Action_Plugin {
             'type' => 'format',
             'title' => $this->getLang('insertcode'),
             'icon' => '../../plugins/codebuttonmod1/image/code.png',
-            'open' => '<code | download code>\n',
+            'open' => '<code | download>\n',
             'close' => '\n</code>',
         );
     }

@@ -1,2 +1,3 @@
 <?php
-$lang['insertcode'] = 'Insert_Code';
+$lang['insertcode'] = 'Insert Code (Download)';
+$lang['insertcodecopy'] = 'Insert Code (Copy)';
