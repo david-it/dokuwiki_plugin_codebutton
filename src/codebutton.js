@@ -6,9 +6,13 @@
  */
 
 jQuery(document).ready( function() {
-
+		
 	jQuery("pre").click( function() {
 		
+		// Disable plugin in edit mode
+		urlgets = jQuery(location).attr('search');
+		if(urlgets.search("do=edit") > 0){return false};
+	
 		ret = jQuery( this ).text();
 		
 		// Temporary modification of background
