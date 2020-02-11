@@ -6,11 +6,12 @@
  */
 
 jQuery(document).ready( function() {
-		
+	
 	jQuery("pre").click( function() {
 		
-		// Ignore plugin for any action mode
+		// Ignore plugin for any action mode and when no get variable is set (section edit mode)
 		urlgets = jQuery(location).attr('search');
+		if(urlgets == ""){return false;};
 		if(urlgets.search("do=") > 0){return false};
 	
 		ret = jQuery( this ).text();
