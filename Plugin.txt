@@ -12,7 +12,7 @@ conflicts  :
 similar    : codebuttonmod1, codebutton, custombuttons
 tags       : button, code, toolbar
 
-downloadurl: https://github.com/david-it/dokuwiki_plugin_codebutton/releases/download/v1.2.1-beta/v1.2.1-beta.zip
+downloadurl: https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.2.zip
 bugtracker : 
 sourcerepo : https://github.com/david-it/dokuwiki_plugin_codebutton/tree/featureCopyCode2Clipboard
 donationurl: 
@@ -55,4 +55,4 @@ With a left click on the code blocks the code is copied to the clipboard.
 
 === Known Bugs and Issues ===
 
-  * v1.2-beta: Conflict with CodeMirror plugin
+  * v1.2.1-beta: Conflict with CodeMirror plugin
