@@ -1,54 +1,58 @@
-====== CodeButton Mod 1 Plugin (codebuttonmod1) ======
+====== codebuttonmod2 Plugin ======
 
 ---- plugin ----
-description: Inserts a code button into the toolbar.
-author     : Georg Schmidt
-email      : gs-develop@gs-sys.de
+description: Inserts two code buttons into the toolbar. Include code copy-to-clipboard feature
+author     : david-it
+email      : davide.rolando@gmail.com
 type       : action
-lastupdate : 2019-01-19
-compatible : 2018-04-22b
+lastupdate : 2020-02-12
+compatible : 
 depends    : 
-similar    : codebutton, custombuttons
+conflicts  : 
+similar    : codebuttonmod1, codebutton, custombuttons
 tags       : button, code, toolbar
 
-downloadurl: https://github.com/user9209/dokuwiki_plugin_codebutton/archive/master.zip
-bugtracker: https://github.com/user9209/dokuwiki_plugin_codebutton/issues
-sourcerepo: https://github.com/user9209/dokuwiki_plugin_codebutton/
+downloadurl: https://github.com/david-it/dokuwiki_plugin_codebutton/releases/download/v1.2.1-beta/v1.2.1-beta.zip
+bugtracker : 
+sourcerepo : https://github.com/david-it/dokuwiki_plugin_codebutton/tree/featureCopyCode2Clipboard
 donationurl: 
 
-screenshot_img : 
+screenshot_img : https://i.paste.pics/bbc7fe5a531b5069f722efd954af619b.png
 ----
 
 ===== Installation =====
 
-Search and install the plugin **"codebuttonmod1"** using the Extension Manager.
-
-or
-
 Install the plugin over the webfrontend by using the url:
 
-https://github.com/user9209/dokuwiki_plugin_codebutton/archive/master.zip
+https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2-beta.zip
 
-===== Syntax and Usage =====
+===== Usage =====
 
-After installation you'll find a new button at the end of your regular toolbar. Use them to add "''<code>Insert_Code</code>''" to your DokuWiki markup.
+== Markup ==
 
-=== Mod 1 contains ===
-  * Default title is set to "download"
-  * file has been replaced by code
-  * Placeholder text can select by a single double click.
-  * plugin.info.txt for easy setup using a named zip file
+Two new buttons are included in the toolbar. 
+The first button include the functionalities of codebuttonmod1 (download link by default): "''<code | download>Insert_Code</code>''"
+
+The second button adds a simple "''<code>Insert_Code</code>''" markup.
+
+== Published pages ==
+
+With a left click on the code blocks the code is copied to the clipboard.
+ 
 
 === Author ===
+  * Davide Rolando (Mod 2) [[https://github.com/david-it/dokuwiki_plugin_codebutton|Plugin on GitHub]]
   * Georg Schmidt (Mod 1) [[https://github.com/user9209/dokuwiki_plugin_codebutton|Plugin on GitHub]]
   * Heiko Barth (Original) [[https://github.com/casperklein/dokuwiki_plugin_codebutton|Plugin on GitHub]]
 
 === Change Log ===
-  * **2019-01-19**
-    * Update plugin name and id
-  * **2019-01-16**
+  * **2020-02-07**
+    * Plugin "disabled" for any action mode (v1.2.1-beta)
+  * **2020-02-01**
+    * First release (v1.2-beta)
+  * **2020-02-01**
     * Fork from [codebutton](https://www.dokuwiki.org/plugin:codebutton)	
 
 === Known Bugs and Issues ===
 
-  * not yet known
+  * v1.2-beta: Conflict with CodeMirror plugin
