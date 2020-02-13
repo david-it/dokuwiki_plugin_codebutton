@@ -12,7 +12,7 @@ The plugin Mod 2 include a new feature for copying the code text to clipboard wi
 **Mod 2 version:**
 
 Install the plugin over the webfrontend by using the url:  
-https://github.com/david-it/dokuwiki_plugin_codebutton/releases/tag/v1.2.1-beta
+https://github.com/david-it/dokuwiki_plugin_codebutton/releases/tag/v1.2.2
 
 **Mod 1 version:**
 
