@@ -2,7 +2,7 @@ base codebuttonmod2
 author Davide Rolando
 email  davide.rolando@gmail.com
 date   2020-02-12
-name   Toolbar Code Button - Mod 1
+name   Toolbar Code Button - Mod 2
 desc   Inserts a code button into the toolbar. Add copy to clipboard function.
 url    https://github.com/david-it/dokuwiki_plugin_codebutton
 

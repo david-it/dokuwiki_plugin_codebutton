@@ -5,14 +5,14 @@ description: Inserts two code buttons into the toolbar. Include code copy-to-cli
 author     : david-it
 email      : davide.rolando@gmail.com
 type       : action
-lastupdate : 2020-02-12
+lastupdate : 2020-02-18
 compatible : 
 depends    : 
 conflicts  : 
 similar    : codebuttonmod1, codebutton, custombuttons
 tags       : button, code, toolbar
 
-downloadurl: https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.2.zip
+downloadurl: https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.3.zip
 bugtracker : 
 sourcerepo : https://github.com/david-it/dokuwiki_plugin_codebutton/tree/featureCopyCode2Clipboard
 donationurl: 
@@ -34,6 +34,7 @@ Two new buttons are included in the toolbar.
 The first button include the functionalities of codebuttonmod1 (download link by default): "''<code | download>Insert_Code</code>''"
 
 The second button adds a simple "''<code>Insert_Code</code>''" markup.
+The third button adds "''%%Insert_Code%%''" for inline code.
 
 == Published pages ==
 
@@ -46,6 +47,8 @@ With a left click on the code blocks the code is copied to the clipboard.
   * Heiko Barth (Original) [[https://github.com/casperklein/dokuwiki_plugin_codebutton|Plugin on GitHub]]
 
 === Change Log ===
+  * **2020-02-18**
+    * Bug fix and button for inline code included (v1.2.3)
   * **2020-02-07**
     * Plugin "disabled" for any action mode (v1.2.1-beta)
   * **2020-02-01**

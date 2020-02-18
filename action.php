@@ -18,11 +18,12 @@ class action_plugin_codebuttonmod1 extends DokuWiki_Action_Plugin {
     function register(Doku_Event_Handler $controller) {
         $controller->register_hook('TOOLBAR_DEFINE', 'AFTER', $this, 'insert_button', array ());
 		$controller->register_hook('TOOLBAR_DEFINE', 'AFTER', $this, 'insert_button_copy', array ());
+		$controller->register_hook('TOOLBAR_DEFINE', 'AFTER', $this, 'insert_button_inline', array ());
 		$controller->register_hook('TPL_METAHEADER_OUTPUT', 'BEFORE', $this,'_hookjs');
     }
  
     /**
-     * Inserts the toolbar button
+     * Insert a toolbar button
      */
     function insert_button(& $event, $param) {
         $event->data[] = array (
@@ -33,9 +34,22 @@ class action_plugin_codebuttonmod1 extends DokuWiki_Action_Plugin {
             'close' => '\n</code>',
         );
     }
-
+	
+	/**
+     * Insert a toolbar button
+     */
+    function insert_button_inline(& $event, $param) {
+        $event->data[] = array (
+            'type' => 'format',
+            'title' => $this->getLang('insertcodeinline'),
+            'icon' => '../../plugins/codebuttonmod1/image/inline-button+.png',
+            'open' => "''%%",
+            'close' => "%%''",
+        );
+    }
+	
     /**
-     * Inserts the toolbar button
+     * Insert a toolbar button
      */
     function insert_button_copy(& $event, $param) {
         $event->data[] = array (
@@ -46,7 +60,9 @@ class action_plugin_codebuttonmod1 extends DokuWiki_Action_Plugin {
             'close' => '\n</code>',
         );
     }
+    
 
+	
     /**
      * Hook js script into page headers.
      *
@@ -62,3 +78,5 @@ class action_plugin_codebuttonmod1 extends DokuWiki_Action_Plugin {
 							#'src'     => DOKU_PLUGIN.'src/codebutton.js');
     }
 }
+
+?>
