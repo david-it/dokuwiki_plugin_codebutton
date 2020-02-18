@@ -14,6 +14,7 @@ The plugin Mod 2 adds a second additional button and includes a new feature for 
 Install the plugin over the webfrontend by using the url:  
 https://github.com/david-it/dokuwiki_plugin_codebutton/releases/tag/v1.2.3
 
+
 **Mod 1 version:**
 
 Install the plugin over the webfrontend by using the url:  
