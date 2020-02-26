@@ -42,7 +42,7 @@ class action_plugin_codebuttonmod1 extends DokuWiki_Action_Plugin {
         $event->data[] = array (
             'type' => 'format',
             'title' => $this->getLang('insertcodeinline'),
-            'icon' => '../../plugins/codebuttonmod1/image/inline-button+.png',
+            'icon' => '../../plugins/codebuttonmod1/image/inline-button.png',
             'open' => "''%%",
             'close' => "%%''",
         );
