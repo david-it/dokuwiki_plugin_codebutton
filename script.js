@@ -10,12 +10,12 @@
 jQuery(document).ready( function() {
 
 	urlgets = jQuery(location).attr('search');
-	if(urlgets == "" || urlgets.search("do=") > 0){
+	if(urlgets == "" || urlgets.search("do=") > 0) {
 		// Ignore plugin
 		return false;
 	} else {
 		jQuery("pre").wrap( "<div class='pre_wrap'></div>" );
-		jQuery("div.pre_wrap").prepend('<a class="copybtn o-tooltip--left" style="background-color: rgba(0, 0, 0, 0)" data-tooltip="Copy"><img src="lib/plugins/codebuttonmod1/image/copy-button.svg" alt="Copy to clipboard"></a>');
+		jQuery("div.pre_wrap").prepend('<a class="copybtn o-tooltip--left" style="background-color: rgba(0, 0, 0, 0)" data-tooltip="Copy"><img src="lib/plugins/codebuttonmod2/image/copy-button.svg" alt="Copy to clipboard"></a>');
 		jQuery("div.pre_wrap").css({"position":"relative","overflow":"auto"});
 	}
 

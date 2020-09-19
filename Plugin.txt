@@ -5,26 +5,26 @@ description: Inserts two code buttons into the toolbar. Include code copy-to-cli
 author     : david-it
 email      : davide.rolando@gmail.com
 type       : action
-lastupdate : 2020-02-18
+lastupdate : 2020-09-19
 compatible : 
 depends    : 
 conflicts  : 
 similar    : codebuttonmod1, codebutton, custombuttons
 tags       : button, code, toolbar
 
-downloadurl: https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.3.zip
-bugtracker : 
-sourcerepo : https://github.com/david-it/dokuwiki_plugin_codebutton/tree/featureCopyCode2Clipboard
+downloadurl: https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.4.zip
+bugtracker : https://github.com/david-it/dokuwiki_plugin_codebutton/issues
+sourcerepo : https://github.com/david-it/dokuwiki_plugin_codebutton/
 donationurl: 
 
-screenshot_img: https://paste.pics/81O99
+screenshot_img : https://paste.pics/81O99
 ----
 
 ===== Installation =====
 
 Install the plugin over the webfrontend by using the url:
 
-https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.3.zip
+https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.4.zip
 
 == Screenshot ==
 
@@ -50,6 +50,11 @@ With a left click on the code blocks the code is copied to the clipboard.
   * Heiko Barth (Original) [[https://github.com/casperklein/dokuwiki_plugin_codebutton|Plugin on GitHub]]
 
 === Change Log ===
+  * **2020-09-19**
+    * Use codebuttonmod2 directory and references throughout
+    * Bug fix duplicate plugin.info results in codebuttonmod1 directory
+	* Remove jshook - results in jquery not found error
+    * rename all.css to style.css and src/codebutton.js to script.js
   * **2020-02-18**
     * Bug fix and button for inline code included (v1.2.3)
   * **2020-02-07**
