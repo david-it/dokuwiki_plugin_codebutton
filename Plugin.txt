@@ -17,7 +17,7 @@ bugtracker : https://github.com/david-it/dokuwiki_plugin_codebutton/issues
 sourcerepo : https://github.com/david-it/dokuwiki_plugin_codebutton/
 donationurl: 
 
-screenshot_img : https://i.paste.pics/bbc7fe5a531b5069f722efd954af619b.png
+screenshot_img : https://paste.pics/81O99
 ----
 
 ===== Installation =====
@@ -26,15 +26,18 @@ Install the plugin over the webfrontend by using the url:
 
 https://github.com/david-it/dokuwiki_plugin_codebutton/archive/v1.2.4.zip
 
+== Screenshot ==
+
+[[https://paste.pics/81O99]]
+
 ===== Usage =====
 
 == Markup ==
 
-Two new buttons are included in the toolbar. 
-The first button include the functionalities of codebuttonmod1 (download link by default): "''<code | download>Insert_Code</code>''"
-
-The second button adds a simple "''<code>Insert_Code</code>''" markup.
-The third button adds "''%%Insert_Code%%''" for inline code.
+Three new buttons are included in the toolbar. 
+  * The first button include the functionalities of codebuttonmod1 (download link by default): "''<code | download>Insert_Code</code>''"
+  * The second button adds a simple "''<code>Insert_Code</code>''" markup.
+  * The third button adds "''%%Insert_Code%%''" for inline code.
 
 == Published pages ==
 
